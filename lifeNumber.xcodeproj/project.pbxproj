@@ -13,6 +13,9 @@
 		D45F5F5F24E2CC1E00B2FB49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45F5F5D24E2CC1E00B2FB49 /* Main.storyboard */; };
 		D45F5F6124E2CC2500B2FB49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45F5F6024E2CC2500B2FB49 /* Assets.xcassets */; };
 		D45F5F6424E2CC2500B2FB49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45F5F6224E2CC2500B2FB49 /* LaunchScreen.storyboard */; };
+		D45F5F6C24E2CE1100B2FB49 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45F5F6B24E2CE1100B2FB49 /* BirthdayViewController.swift */; };
+		D45F5F6E24E2CE2900B2FB49 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45F5F6D24E2CE2900B2FB49 /* ResultViewController.swift */; };
+		D45F5F7124E2D17300B2FB49 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45F5F7024E2D17300B2FB49 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D45F5F6024E2CC2500B2FB49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D45F5F6324E2CC2500B2FB49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D45F5F6524E2CC2500B2FB49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45F5F6B24E2CE1100B2FB49 /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
+		D45F5F6D24E2CE2900B2FB49 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		D45F5F7024E2D17300B2FB49 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45F5F7124E2D17300B2FB49 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,7 @@
 			children = (
 				D45F5F5624E2CC1E00B2FB49 /* lifeNumber */,
 				D45F5F5524E2CC1E00B2FB49 /* Products */,
+				D45F5F6F24E2D17200B2FB49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +68,21 @@
 				D45F5F5924E2CC1E00B2FB49 /* SceneDelegate.swift */,
 				D45F5F5B24E2CC1E00B2FB49 /* ViewController.swift */,
 				D45F5F5D24E2CC1E00B2FB49 /* Main.storyboard */,
+				D45F5F6B24E2CE1100B2FB49 /* BirthdayViewController.swift */,
+				D45F5F6D24E2CE2900B2FB49 /* ResultViewController.swift */,
 				D45F5F6024E2CC2500B2FB49 /* Assets.xcassets */,
 				D45F5F6224E2CC2500B2FB49 /* LaunchScreen.storyboard */,
 				D45F5F6524E2CC2500B2FB49 /* Info.plist */,
 			);
 			path = lifeNumber;
+			sourceTree = "<group>";
+		};
+		D45F5F6F24E2D17200B2FB49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D45F5F7024E2D17300B2FB49 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45F5F6E24E2CE2900B2FB49 /* ResultViewController.swift in Sources */,
 				D45F5F5C24E2CC1E00B2FB49 /* ViewController.swift in Sources */,
+				D45F5F6C24E2CE1100B2FB49 /* BirthdayViewController.swift in Sources */,
 				D45F5F5824E2CC1E00B2FB49 /* AppDelegate.swift in Sources */,
 				D45F5F5A24E2CC1E00B2FB49 /* SceneDelegate.swift in Sources */,
 			);
